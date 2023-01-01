@@ -2,20 +2,20 @@
   "name": "parcel-pr-71",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Tigriceo.github.io/parcel-pr-71",
+  "homepage": "https://Goingforth.github.io/isimemem",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-pr-71/"
+    "build": "parcel build src/*.html --public-url /isimemem/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tigriceo/parcel-pr-71.git"
+    "url": "git+https://github.com/Goingforth/isimemem.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tigriceo/parcel-pr-71/issues"
+    "url": "https://github.com/Goingforth/isimemem/issues"
   },
   "dependencies": {
     "imask": "^6.4.3",
