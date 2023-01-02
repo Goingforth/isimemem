@@ -1,0 +1,28 @@
+.hero {
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  // если не грузится картинка
+  background-color: $color-dark;
+
+  background-image: url(../images/hero/img_hero@1x.jpg);
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/hero/img_hero@2x.jpg);
+  }
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero .container {
+  padding: 445px 552px 90px 60px;
+}
+.hero__title {
+  font-weight: 400;
+  font-size: 126px;
+  line-height: 1.05;
+
+  color: $color-hero;
+}
