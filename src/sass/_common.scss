@@ -42,9 +42,7 @@ p {
 }
 
 .container {
-  max-width: 1160px;
-
-  //position: relative;
+  max-width: 1280px;
 
   padding: 0 60px;
   margin: 0 auto;
@@ -52,17 +50,7 @@ p {
     padding-left: 50px;
     padding-right: 120px;
   }
-
-  // tablet
-  //@media screen and (min-width: 768px) {
-  // padding: 0 32px;
 }
-
-// desktop
-// @media screen and (min-width: 1200px) {
-//  padding: 0 16px;
-// }
-//}
 
 .visually-hidden {
   position: absolute;
