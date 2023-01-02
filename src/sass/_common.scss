@@ -50,6 +50,9 @@ p {
     padding-left: 50px;
     padding-right: 120px;
   }
+  .about & {
+    padding: 120px 192px;
+  }
 }
 
 .visually-hidden {
