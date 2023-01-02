@@ -1,0 +1,31 @@
+.logo {
+  display: flex;
+}
+.page-header__logo {
+  padding-top: 12px;
+  fill: $color-logo;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid $color-dark;
+}
+
+.main-nav__list {
+  display: flex;
+  width: 535px;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.main-nav__link {
+  display: block;
+  padding-top: 39px;
+  padding-bottom: 28px;
+  color: $color-dark;
+  cursor: pointer;
+}
