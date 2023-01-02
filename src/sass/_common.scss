@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  font-family: Montserrat, sans-serif;
-  //color: $main-color;
-  letter-spacing: 0.04em;
+  font-family: Roboto, sans-serif;
+  color: $color-dark;
+  //letter-spacing: 0.04em;
 }
 
 img {
@@ -42,23 +42,27 @@ p {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1160px;
 
-  position: relative;
+  //position: relative;
 
-  padding: 0 20px;
+  padding: 0 60px;
   margin: 0 auto;
+  .header & {
+    padding-left: 50px;
+    padding-right: 120px;
+  }
 
   // tablet
-  @media screen and (min-width: 768px) {
-    padding: 0 32px;
-  }
-
-  // desktop
-  @media screen and (min-width: 1200px) {
-    padding: 0 16px;
-  }
+  //@media screen and (min-width: 768px) {
+  // padding: 0 32px;
 }
+
+// desktop
+// @media screen and (min-width: 1200px) {
+//  padding: 0 16px;
+// }
+//}
 
 .visually-hidden {
   position: absolute;
